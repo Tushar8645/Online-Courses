@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Signup{% endblock title %}
+
+{% block content %}
+
+<div class="container">
+    <h1 class="display-1">Signup Page</h1>
+
+    <form action="{% url 'courses:signup' %}" method="POST">
+        {{ form.as_p }}
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,26 @@
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.active-video {
+  background-color: grey;
+  color: aliceblue;
+}
+
+.active-video-link {
+  color: white;
+}
+
+.active-video-link:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.price {
+  font-size: 20px;
+}
